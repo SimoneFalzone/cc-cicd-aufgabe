@@ -19,7 +19,7 @@ steps:
 - name: publish
   image: plugins/docker
   settings:
-    repo: enomis455/cc-cicd-aufgabe
+    repo: enomis455/calculator-prod
     username: 
         from_secret: dockerhub_user
     password:
